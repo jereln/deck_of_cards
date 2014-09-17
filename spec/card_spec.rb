@@ -1,16 +1,16 @@
-require "minitest/autorun"
-require "minitest/test"
+require 'minitest/autorun'
+require 'minitest/test' 
 
-require "card"
+require 'deck'
 
-describe "card" do
+describe 'card' do
   card = Card.new('hearts', 4)
 
-  it "has a suit" do
+  it 'has a suit' do
     card.suit.must_equal 'hearts'  
   end
 
-  it "has a rank" do
+  it 'has a rank' do
     card.rank.must_equal 4  
   end
 end
