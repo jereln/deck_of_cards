@@ -1,10 +1,8 @@
 require 'minitest/autorun'
 require 'minitest/test'
-
 require 'deck'
 
 describe 'a deck of cards' do
-
   deck = Deck.new 
   
   it 'has 52 cards' do
