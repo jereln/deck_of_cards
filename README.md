@@ -1,1 +1,6 @@
-Deck of Cards README
+#Deck of Cards
+
+##Collaborators
+Brook Riggio
+Marco
+Kayla
