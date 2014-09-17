@@ -14,4 +14,3 @@ describe 'card' do
     card.rank.must_equal 4  
   end
 end
-
